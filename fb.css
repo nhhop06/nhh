@@ -1,0 +1,406 @@
+tr {
+    line-height: 30px ;
+}
+td {
+    border: 1px black solid;
+    padding: 10px;
+    padding-right:  40px ;
+}
+table {
+    border-collapse: collapse;
+    caption-side: bottom;
+}
+th {
+    border: 1px black solid;
+}
+tbody tr:nth-child( odd ) {
+    background-color: aquamarine;
+
+}
+tbody tr:nth-child( even ) {
+    background-color: rgb(183, 246, 225);
+
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    /* Gioi han kich thuoc trong vung chua */
+    max-width: 100%;
+    /* Loai bo phan chan dong (khoang trang nho o duoi hinh anh) */
+    vertical-align: middle;
+    height: auto;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row {
+    display: flex;
+
+    /* Loai bo khoang trong 2 cot ngoai cung */
+    margin-left: -5px;
+    margin-right: -5px;
+
+    /* Dat khoang trong giua cac hang */
+    row-gap: 10px;
+}
+
+.row > * {
+    /* Dat khoang trong giua cac cot */
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.col-1 {
+    flex: 0 1 8.333333%;
+}
+
+.col-2 {
+    flex: 0 1 16.666667%;
+}
+
+.col-3 {
+    flex: 0 1 25%;
+}
+
+.col-4 {
+    flex: 0 1 33.333333%;
+}
+
+.col-5 {
+    flex: 0 1 41.666667%;
+}
+
+.col-6 {
+    flex: 0 1 50%;
+}
+
+.col-7 {
+    flex: 0 1 58.333333%;
+}
+
+.col-8 {
+    flex: 0 1 66.666667%;
+}
+
+.col-9 {
+    flex: 0 1 75%;
+}
+
+.col-10 {
+    flex: 0 1 83.333333%;
+}
+
+.col-11 {
+    flex: 0 1 91.666667%;
+}
+
+.col-12 {
+    flex: 0 1 100%;
+}
+.flex {
+    display: flex;
+}
+.container{
+    display: flex;
+    width: 1260px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    width: 1245px;
+    height: 450px ;
+}
+.logo h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding-left: 30px;
+}
+.logo img {
+    width: 60% ;
+}
+.login-menu {
+    margin-left:  60px ;
+    width: 90% ;
+    border: 0px solid gray ;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px gray;
+    padding: 20px;
+}
+.email-box {
+    width: 100% ;
+}
+#password {
+    padding-left: 10px ;
+    height: 40px;
+    width: 100%;
+}
+#email {
+    margin-bottom: 10px ;
+    padding-left: 10px ;
+    height: 40px;
+    width: 100%;
+}
+#email:focus {
+    outline: 0px;
+    border: 1px solid rgb(0, 47, 255);
+    border-color: rgb(0, 47, 255);
+    border-radius:5px ;
+    box-shadow: 0px 0px 5px rgb(0, 166, 255) ;
+}
+#password:focus {
+    outline: 0px;
+    border: 1px solid rgb(0, 47, 255);
+    border-color: rgb(0, 47, 255);
+    border-radius:5px ;
+    box-shadow: 0px 0px 5px rgb(0, 166, 255) ;
+}
+.scname-box {
+    width: 50%;
+}
+.ten {
+    width:  50% ;
+}
+#name {
+    width: 100%;
+    height: 40px;
+
+}
+#sc-name {
+    width: 96% ;
+    height: 40px;
+}
+.hovaten {
+    margin-bottom: 10px ;
+    width: 100% ;
+    display: flex;
+}
+.ttk {
+    position: absolute;
+    top: 90px;
+    width: 95% ;
+}
+#birday {
+    width: 100% ;
+    height: 40px;
+}
+.gender {
+    margin-top: 5px ;
+    width: 33% ;
+    border-radius: 5px;
+    margin-left: 5px ;
+    margin-right: 5px ;
+    border: 1px gray solid;
+    padding-left: 10px ;
+}
+.small-des {
+    font-size: 10px ;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 10px ;
+}
+.small-des a {
+    text-decoration: none;
+    color: rgb(0, 64, 255);
+}
+.small-des a:hover {
+    text-decoration: underline;
+}
+.button {
+    margin-top: 10px ;
+}
+.login-button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px ;
+    padding: 10px ;
+    background-color: rgb(0, 162, 255);
+    color: aliceblue;
+}
+.quen a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px ;
+    padding-left: 100px ;
+    text-decoration: none;
+    color: rgb(0, 102, 255);
+}
+.quen a:hover {
+    text-decoration: underline;
+}
+.quen {
+    padding-bottom: 20px ;
+    border-bottom: 1px solid rgb(172, 171, 171) ;
+    margin-top: 10px ;
+}
+.newacc-btn a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px ;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+.button-log {
+    margin-top: 20px ;
+    width: 100%;
+    border: none;
+    text-decoration: none;
+    height: 40px;
+    border-radius:5px ;
+    background-color: rgb(15, 95, 255); 
+    color: white;
+}
+.taotrang {
+    position: absolute;
+    right: 95px;
+    text-align: center;
+    margin-top: 40px ;
+    padding-left:42px ;
+    font-size: 15px;
+    
+}
+.taotrang a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.newlog {
+    display: none;
+    background-color: gray;
+
+}
+.newacc:hover:active .newlog {
+    display: flex;
+}
+body {
+ background: rgb(255, 255, 255);
+ margin: 0;
+ font-family: arial;
+ font-size: 1.2em;
+ color: #111;
+}
+	
+.wrapper {
+ max-width: 960px;
+ margin: 10% auto;
+ text-align: center;
+ line-height: 2em;
+}
+.button {
+ border: 0px solid rgba(17, 17, 17, 0);
+ padding: 10px;
+ color: rgb(255, 255, 255);
+ text-decoration: none;
+ margin-top: 20px ;
+    width: 100%;
+    border: none;
+    text-decoration: none;
+    height: 40px;
+    border-radius:5px ;
+    background-color: rgb(51, 174, 74);
+}
+.dangki {
+    position: absolute;
+    margin-top: 30px;
+    left: 120px ;
+    border: #fff;
+    padding-left: 40px ;
+    padding-right: 40px;
+    align-items: center;
+     height: 40px;
+    border-radius:5px ;
+    background-color: rgb(51, 174, 74);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+.dangki a {
+    text-decoration: none;
+    color: white;
+}
+
+.dangki-box .dangki:hover {
+    background-color:  rgb(28, 99, 41);
+}
+.dangki-box {
+    width: 100% ;
+    background-color: white;
+    overflow: hidden;
+}
+	
+
+.popup {
+    overflow: hidden;
+ position: fixed;
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ background: rgba(0,0,0,0.6);
+ display: none;
+}
+
+#xmas-popup .popup-content{
+    top: -80px;
+ width: 415px;
+ height: 555px;
+ background: rgb(255, 255, 255);
+ margin: 100px auto;
+ position: relative;
+ border: 0px solid #fff;
+ border-radius: 5px;
+ box-shadow: 0px 0px 6px rgb(0, 0, 0);
+}
+
+.close {
+ position: absolute;
+ top: 5px;
+ right: 5px;
+ font-size: 30px;
+ color: rgb(104, 104, 104);
+ text-decoration: none;
+ line-height: 0;
+ padding: 9px 0 11px;
+ width: 20px;
+ text-align: center;
+}
+	
+.popup:target {
+  display: block;
+}
+.popup-content {
+    position: relative;
+    padding: 10px ;
+}
+.tieude-newacc {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    line-height: 34px ;
+    border-bottom: 1px gray solid;
+    width: 95% ;
+}
